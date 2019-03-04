@@ -1,0 +1,132 @@
+.login-content {
+    background: url("../images/login_bg.jpg") center center no-repeat ;
+    height: 770px;
+    width: 100%;
+}
+.login-content  .login-wl {
+    height: 770px;
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+.login-box {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 427px;
+    min-height: 370px;
+    margin-top: -213px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 25px 28px;
+}
+.member-login {
+    display: inline-block;
+    font-style: normal;
+    font-size: 18px;
+    color: #000;
+    vertical-align: middle;
+    padding-left: 10px;
+}
+.free-register {
+    float: right;
+    padding-top: 5px;
+    padding-right: 5px;
+    font-size: 14px;
+    color: #1db6f6;
+    text-decoration: underline;
+}
+.free-register:hover {
+    color: #1db6f6;
+}
+.login-title {
+    padding-bottom: 25px;
+    border-bottom: 1px solid #cdcfd7;
+}
+.login-number ,.login-password{
+    text-align: center;
+}
+.login-number  span ,.login-password span{
+    display: inline-block;
+    margin-right: 18px;
+}
+.login-number  input,.login-password input {
+    width: 300px;
+    height: 40px;
+    border: 1px solid #dcdcdc;
+    border-radius:5px;
+    padding-left: 12px;
+}
+.test-code  {
+    padding-bottom: 30px;
+    text-align: center;
+    position: relative;
+}
+.test-code input {
+    height: 40px;
+    width: 175px;
+    margin-left: 10px;
+    border-radius: 5px;
+    border: 1px solid #cccccc;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+.test-code  .btn-code {
+    display: inline-block;
+    margin-left: 10px;
+    height: 36px;
+    border-radius: 5px;
+    border: 1px solid #cccccc;
+    width: 118px;
+    background:url("../images/yanzhengma.png");
+    font-size: 25px;
+    font-weight: 700;
+    color: #177ce3;
+    padding-top: 3px;
+}
+.test-code  .btn-code:hover{
+    cursor: pointer;
+}
+.no-clear {
+    display: block;
+    position: absolute;
+    bottom: 5px;
+    right: 43px;
+    font-size: 12px;
+    color: #666666;
+}
+.no-clear:hover {
+    color: deepskyblue;
+    text-decoration: underline;
+}
+.forget-password {
+    float: right;
+    font-size: 14px;
+    color: #ff6e3c;
+    text-decoration: underline;
+    margin-right: 40px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.forget-password:hover {
+    color: #ff6e3c;
+}
+.btn {
+    width: 380px;
+    height: 50px;
+    background-color: #1db6f6;
+    border-radius: 3px;
+    border: 1px solid #1db6f6;
+    display: block;
+    color: #ffffff;
+    margin:auto;
+    cursor: pointer;
+    margin-top: 12px;
+    margin-left: 25px;
+}
+#remind_1,#remind_2,#remind_3 {
+    margin-left: 100px;
+    height: 30px;
+    line-height: 30px;
+
+}

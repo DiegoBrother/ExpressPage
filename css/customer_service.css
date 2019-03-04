@@ -1,0 +1,73 @@
+.customer-service {
+    height:700px;
+}
+.header_ad {
+    height: 240px;
+    background: url("../images/customerServiceCenter.jpg");
+    margin-bottom: 30px;
+    box-shadow: 0 5px 10px rgba(119,136,153,.4);
+}
+.header_ad h1 {
+    font-weight: bold;
+    font-size: 40px;
+    margin-left: 220px;
+    padding-top: 53px;
+    letter-spacing: 8px;
+
+}
+.header_ad p {
+    margin-left: 220px;
+    padding-top: 16px;
+    color: #666666;
+}
+.customer-service-wl {
+    height:400px;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 40px 100px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    /* background-color: rgb(238, 241, 244);*/
+    box-shadow: 0 5px 10px rgba(51,162,247,.15);
+}
+.kefu-title {
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 600;
+    font-size: 20px;
+    background: url('../images/titleBg.png') center center no-repeat;
+    background-size: auto 26px;
+
+}
+.customer-box {
+    float: left;
+    width: 270px;
+    height: 270px;
+    text-align: center;
+    padding: 20px 20px;
+    box-sizing: border-box;
+}
+.box-title {
+    margin-top: 18px;
+    color: #000;
+    font-weight: 700;
+}
+.box-title,.box-num {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.service-btn {
+    display: inline-block;
+    width: 100px;
+    height: 40px;
+    color: #ffffff;
+    background-color: dodgerblue;
+    border: 0;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 40px;
+}
+.middle-box {
+    margin: 0 90px;
+}

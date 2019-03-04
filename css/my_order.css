@@ -1,0 +1,70 @@
+.modify_pws {
+    height:700px;
+}
+.header_ad {
+    height: 240px;
+    background: url("../images/customerCenter.jpg");
+    margin-bottom: 30px;
+    box-shadow: 0 5px 10px rgba(119,136,153,.4);
+}
+.header_ad h1 {
+    font-weight: bold;
+    font-size: 40px;
+    margin-left: 220px;
+    padding-top: 53px;
+    letter-spacing: 8px;
+
+}
+.header_ad p {
+    margin-left: 220px;
+    padding-top: 16px;
+    color: #666666;
+}
+.modify_pws_wl {
+    height:400px;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 40px 100px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: rgb(238, 241, 244);
+    box-shadow: 0 5px 10px rgba(51,162,247,.4);
+}
+
+table {
+    border: 1px solid #e0e0e0;
+}
+thead tr th{
+    padding:10px 24px;
+    background-color: #F5F5F5;
+    color: #666666;
+}
+tbody tr  td {
+    padding: 10px 26px;
+    text-align: center;
+    color: #666666;
+    background-color: #fff;
+}
+.search {
+    margin-bottom: 20px;
+}
+label{
+    color: #666666;
+}
+#search {
+    display: inline-block;
+    height: 40px;
+    width: 270px;
+    padding-left: 8px;
+    border-radius: 2px;
+    border: 0;
+}
+.search #btn {
+    height: 40px;
+    width: 80px;
+    background-color: #0293ED;
+    border: 0;
+    border-radius: 4px;
+    color: #ffffff;
+    margin-left: 15px;
+}

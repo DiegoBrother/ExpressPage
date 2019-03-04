@@ -1,0 +1,64 @@
+.header_ad {
+    height: 240px;
+    background: url("../images/customerCenter.jpg");
+    margin-bottom: 30px;
+    box-shadow: 0 5px 10px rgba(119,136,153,.4);
+}
+.header_ad h1 {
+    font-weight: bold;
+    font-size: 40px;
+    margin-left: 220px;
+    padding-top: 53px;
+    letter-spacing: 8px;
+
+}
+.header_ad p {
+    margin-left: 220px;
+    padding-top: 16px;
+    color: #666666;
+}
+.complaint_wl {
+    width: 1200px;
+    height: 500px;
+    margin: 0 auto;
+    padding: 16px;
+    border-radius: 3px;
+    box-sizing: border-box;
+    background-color: #f0f0f0;
+    box-shadow: 2px 1px 2px 2px #cccccc;
+}
+.order_no>label {
+    font-size: 18px;
+    color: #666666;
+    margin-right: 20px;
+
+}
+.order_id {
+    width: 300px;
+    height: 40px;
+    border: 0;
+    border-radius: 6px;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+.order_no,.content_box {
+    margin-bottom: 30px;
+}
+.complaint_content {
+    width: 680px;
+    height: 300px;
+    border-radius:4px;
+    box-shadow: 1px 2px 2px 2px #c3c3c3;
+    resize: none;
+    padding: 16px;
+    box-sizing: border-box;
+}
+.sub_btn {
+    width: 300px;
+    height: 40px;
+    background-color: dodgerblue;
+    border: 0;
+    border-radius: 6px;
+    color: #ffffff;
+
+}

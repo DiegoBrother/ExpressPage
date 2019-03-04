@@ -1,0 +1,39 @@
+html .layui-layout-body{
+    height: 100%;
+    width: 100%;
+}
+/*.layui-layout-body .layui-layout-admin  {*/
+    /*width: 100%;*/
+    /*position: fixed;*/
+    /*left: 0;*/
+    /*top: 0;*/
+    /*z-index: 99999999*/
+/*}*/
+.layui-layout-body .layui-layout-admin .nav-bg-color {
+    background-color: #fff;
+}
+.layui-header .layui-layout-left li a ,.layui-layout-admin .layui-layout-right .layui-nav-item a{
+    color: #000;
+}
+.layui-header .layui-layout-left li a:hover ,.layui-layout-admin .layui-layout-right .layui-nav-item a:hover{
+    color: #000;
+}
+.layui-layout-body .layui-layout-admin .layui-layout-right {
+    margin-right: 100px;
+}
+.layui-layout-body .layui-layout-admin .layui-logo {
+    margin-left: 100px;
+}
+.layui-layout-body .layui-layout-admin .layui-layout-left {
+    margin-left: 100px;
+}
+.layui-layout-body .layui-body-1{
+    left: 0;
+}
+.layui-header .layui-nav .layui-nav-item .layui-nav-child{
+    width: 100px;
+    text-align: center;
+}
+.layui-layout-right .layui-nav-item .layui-nav-child {
+    left: -15px;
+}

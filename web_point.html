@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>网点</title>
+    <link rel="stylesheet" href="css/web_point.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="layui/css/layui.css">
+</head>
+<body>
+<div class="layui-layout-body">
+    <!-- 头部区域（可配合layui已有的水平导航） -->
+    <div class="layui-layout layui-layout-admin">
+        <div class="layui-header nav-bg-color">
+            <div class="layui-logo"><img src="images/logo.png" alt="" width="80px" height="40px"></div>
+            <!--左侧-->
+            <ul class="layui-nav layui-layout-left">
+                <li class="layui-nav-item"><a href="index.html">首页</a></li>
+                <li class="layui-nav-item">
+                    <a href="">快递业务</a>
+                    <dl class="layui-nav-child">
+                        <dd><a href="send_express.html">寄件申请</a></dd>
+                        <dd><a href="web_point.html">网点查询</a></dd>
+                    </dl>
+                </li>
+                <li class="layui-nav-item">
+                    <a href="">客户服务</a>
+                    <dl class="layui-nav-child">
+                        <dd><a href="complaint.html">客户投诉</a></dd>
+                    </dl>
+
+                </li>
+                <li class="layui-nav-item">
+                    <a href="javascript:;">关于快递之家</a>
+                </li>
+            </ul>
+            <!--右侧-->
+            <ul class="layui-nav layui-layout-right">
+                <li class="layui-nav-item">
+                    <a href="login.html">
+                        登录
+                        <dl class="layui-nav-child">
+                            <dd><a href="edit_user_info.html">用户信息</a></dd>
+                            <dd><a href="modify_password.html">修改密码</a></dd>
+                            <dd><a href="my_order.html">我的订单</a></dd>
+                        </dl>
+                    </a>
+                </li>
+                <li class="layui-nav-item"><a href="register.html">注册</a></li>
+            </ul>
+        </div>
+    </div>
+    <!--content-->
+    <div class="web_pointz">
+        <div class="header_ad">
+            <h1>网点查询</h1>
+            <p>快递之家提供快捷、安全、贴心、可靠的快递服务，是您的优质选择</p>
+        </div>
+        <div class="web_point_wl">
+            <form action="">
+           <div class="web_point_search">
+               <h3>搜索查询</h3>
+               <div>
+                   <label class="wp_area" for="ssq">网点所在地区</label>
+                   <input type="search" placeholder="请输入省/市/区" class="ssq" id="ssq">
+                   <label class="wp_name" for="qsr">网点名称</label>
+                   <input type="text" placeholder="请输入" class="qsr" id="qsr">
+                   <input type="submit" value="查询" class="submit">
+               </div>
+               <div class="queryResultBox">
+                                     <div class="box1" >
+                       <div class="title">
+                           <span class="address-short">重庆西彭</span>
+                           <span class="wp_num">网点编号：02329</span>
+                       </div>
+                       <div class="content">
+                           <label for="">联系电话：</label>
+                           <span>023-81302070，023-81302071</span>
+                       </div>
+                       <div class="content1">
+                           <label for="">网点地址：</label>
+                           <span class="address-detail">重庆市九龙坡区西彭镇西彭镇铝城南路1号3幢19号（七星城上城商社电器后门斜对面）</span>
+                       </div>
+                       <div class="content2">
+                           <label for="">派送范围：</label>
+                           <span></span>
+                       </div>
+                   </div>
+                   <div class="box1" href="#">
+                       <div class="title">
+                           <span class="address-short">重庆西彭</span>
+                           <span class="wp_num">网点编号：02329</span>
+                       </div>
+                       <div class="content">
+                           <label for="">联系电话：</label>
+                           <span>023-81302070，023-81302071</span>
+                       </div>
+                       <div class="content1">
+                           <label for="">网点地址：</label>
+                           <span class="address-detail">重庆市九龙坡区西彭镇西彭镇铝城南路1号3幢19号（七星城上城商社电器后门斜对面）</span>
+                       </div>
+                       <div class="content2">
+                           <label for="">派送范围：</label>
+                           <span></span>
+                       </div>
+                   </div>
+                   <div class="box1" href="#">
+                       <div class="title">
+                           <span class="address-short">重庆西彭</span>
+                           <span class="wp_num">网点编号：02329</span>
+                       </div>
+                       <div class="content">
+                           <label for="">联系电话：</label>
+                           <span>023-81302070，023-81302071</span>
+                       </div>
+                       <div class="content1">
+                           <label for="">网点地址：</label>
+                           <span class="address-detail">重庆市九龙坡区西彭镇西彭镇铝城南路1号3幢19号（七星城上城商社电器后门斜对面）</span>
+                       </div>
+                       <div class="content2">
+                           <label for="">派送范围：</label>
+                           <span></span>
+                       </div>
+                   </div>
+
+               </div>
+            </div>
+            </form>
+        </div>
+    </div>
+    <!--footer-->
+    <div class="layui-footer" style="margin-top: 20px">
+        <div class="content-bottom">
+            <div class="wl">
+                <div class="first">
+                    <span class="customer-phone">客服电话</span>
+                    <span class="number">4001-666-888</span>
+                    <span class="service-time">服务时间： 8：30 - 17：30</span>
+                </div>
+                <div class="big-box" >
+                    <div class="all-kind-service">
+                        <span>客户服务</span>
+                        <ul>
+                            <li><a href="#">在线寄件</a></li>
+                            <li><a href="#">运单查询</a></li>
+                            <li><a href="#">网点查询</a></li>
+                            <li><a href="#">运费查询</a></li>
+                        </ul>
+                    </div>
+                    <div class="all-kind-service">
+                        <span>客服服务</span>
+                        <ul>
+                            <li><a href="#">客服热线</a></li>
+                            <li><a href="#">在线留言</a></li>
+                        </ul>
+                    </div>
+                    <div class="all-kind-service">
+                        <span>加盟快递之家</span>
+                        <ul>
+                            <li><a href="#">加盟须知</a></li>
+                            <li><a href="#">加盟流程</a></li>
+                            <li><a href="#">加盟热线</a></li>
+                            <li><a href="#">招商区域</a></li>
+                        </ul>
+                    </div>
+                    <div class="all-kind-service">
+                        <span>人才招聘</span>
+                        <ul>
+                            <li><a href="#">人才计划</a></li>
+                            <li><a href="#">招聘信息</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="big-box2" >
+                    <div class="we-chat-box">
+                        <img src="images/code.png" alt="">
+                        <span>快递之家微信</span>
+                        <span>服务扫码关注</span>
+                    </div>
+                    <div class="we-chat-box">
+                        <img src="images/code.png" alt="">
+                        <span>快递通达微信</span>
+                        <span>订阅号扫码关注</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="last-bottom">
+            <div class="wl2">
+                <p>©版权所有 2019 快递之家有限公司</p>
+            </div>
+        </div>
+    </div>
+
+</div>
+<script src="layui/layui.js"></script>
+<script>
+    layui.use(['element','carousel','upload'],function () {
+        var element = layui.element,
+            carousel = layui.carousel,
+            upload = layui.upload;
+
+        //建造实例
+        carousel.render({
+            elem:'#carousel_ad',
+            width:'100%',
+            height:'440px',
+            arrow:'always'
+        })
+        //执行实例
+
+    });
+</script>
+<script>
+    //filereader 的方法
+    function changepic() {
+        var reads= new FileReader();
+        f=document.getElementById('file').files[0];
+        reads.readAsDataURL(f);
+        reads.onload=function (e) {
+            document.getElementById('show').src=this.result;
+        };
+    }
+
+</script>
+
+</body>
+</html>

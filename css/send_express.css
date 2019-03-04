@@ -1,0 +1,113 @@
+.send_express_wl {
+    width: 1200px;
+    margin: 0 auto;
+    font-family: "微软雅黑";
+}
+.user_info_ad {
+    height: 240px;
+    background: url("../images/customerCenter.jpg");
+    margin-bottom: 30px;
+}
+.user_info_ad h1 {
+    font-weight: bold;
+    font-size: 40px;
+    margin-left: 220px;
+    padding-top: 53px;
+    letter-spacing: 8px;
+
+}
+.user_info_ad p {
+    margin-left: 220px;
+    padding-top: 16px;
+    color: #666666;
+}
+.user_info_header {
+    height: 178px;
+}
+.send_express_wl h2 {
+    font-weight: 700;
+    font-size: 22px;
+    margin-bottom: 16px;
+}
+.send_express_info ,.get_express_info,.expresses_info{
+    border-top:  1px solid #cccccc;
+}
+.first_line,.second_line {
+    padding: 30px 60px;
+    text-align: right;
+    box-sizing: border-box;
+}
+.third_line {
+    padding: 30px 60px;
+    box-sizing: border-box;
+    margin-left: 130px;
+}
+.expresses_info .first_line, .expresses_info .second_line {
+    text-align: left;
+    margin-left: 130px;
+}
+.first_line label ,.second_line label,.third_line label{
+    font-size: 16px;
+    color: #666;
+    margin-right: 20px;
+}
+
+.first_line input ,.second_line input,.third_line input{
+    width: 280px;
+    height: 36px;
+    vertical-align: middle;
+    border: 1px solid #e0e0e0;
+    padding-left: 16px;
+    margin-right: 100px;
+}
+.expresses_info .first_line input {
+    vertical-align: middle;
+    margin-right: 20px;
+}
+.expresses_info .second_line input {
+    margin-right: 20px;
+    width: 100px;
+    height: 30px;
+    font-size: 12px;
+    padding: 0;
+    text-align: center;
+    background-color: #F7F7F7;
+    color: #000;
+    border: 1px solid #E0E0E0;
+}
+.expresses_info .second_line input:hover {
+    background-color: #fff;
+}
+.expresses_info .second_line  textarea {
+    vertical-align: top;
+    width: 600px;
+    height: 180px;
+    resize: none;
+    padding: 14px 18px;
+    border: 1px solid #E0E0E0;
+}
+.agreement-btn {
+    margin-left: 276px;
+}
+.agreement-btn span a{
+    font-size: 12px;
+    color: rgb(2, 147, 237);
+}
+.agreement-btn div {
+    height:100px;
+    line-height: 100px;
+    padding-left: 230px;
+}
+.agreement-btn #btn {
+    width: 180px;
+    height: 40px;
+    border:  1px solid #E0E0E0;
+    background-color: rgb(2, 147, 237);
+    color: #fff;
+    border-radius: 6px;
+}
+
+
+
+
+

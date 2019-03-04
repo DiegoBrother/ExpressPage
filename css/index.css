@@ -1,0 +1,257 @@
+html .layui-layout-body{
+    height: 100%;
+    width: 100%;
+}
+.layui-layout-body .layui-layout-admin  {
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 99999999
+}
+.layui-layout-body .layui-layout-admin .nav-bg-color {
+    background-color: #fff;
+}
+.layui-header .layui-nav  .layui-nav-item{
+    color: #000;
+}
+.layui-header .layui-layout-left li a ,.layui-layout-admin .layui-layout-right .layui-nav-item a{
+    color: #000;
+}
+.layui-header .layui-layout-left li a:hover ,.layui-layout-admin .layui-layout-right .layui-nav-item a:hover{
+    color: #000;
+}
+.layui-layout-body .layui-layout-admin .layui-layout-right {
+    margin-right: 100px;
+}
+.layui-layout-body .layui-layout-admin .layui-logo {
+    margin-left: 100px;
+}
+.layui-layout-body .layui-layout-admin .layui-layout-left {
+    margin-left: 100px;
+}
+.layui-layout-body .layui-body-1{
+    left: 0;
+}
+.layui-header .layui-nav .layui-nav-item .layui-nav-child{
+    width: 100px;
+    text-align: center;
+}
+.layui-layout-right .layui-nav-item .layui-nav-child {
+    left: -15px;
+}
+.layui-carousel .layui-carousel-ind {
+    top: -60px
+}
+.lunbo {
+    position: relative;
+}
+.func_menu .func_ul {
+    position: absolute;
+    left: 50%;
+    bottom: -30px;
+    margin-left: -600px;
+}
+.func_menu .func_ul li {
+    float: left;
+    height: 60px;
+    line-height: 60px;
+    width: auto;
+    margin: 0 auto;
+    padding: 0 69px;
+    box-sizing: border-box;
+    background-color: darkseagreen;
+    text-align: center;
+}
+.func_menu .func_ul li:hover {
+
+    background-color: #5FB878;
+}
+.func_menu .func_ul li img {
+    margin-right: 18px;
+}
+.func_menu .func_ul li a {
+    font-size: 16px;
+    color: #fff9ec;
+    font-weight: 700;
+    font-family: "微软雅黑";
+}
+.our-service {
+    margin: 0 auto;
+    width: 1200px;
+    height: 336px;
+    padding: 55px 0;
+    box-sizing: border-box;
+}
+.our-service h3 {
+    background: url("../images/titleBg.png") no-repeat center center;
+    background-size: 20em;
+    text-align: center;
+    font-size: 26px;
+    margin-bottom: 40px;
+}
+.our-service-intro div{
+    float: left;
+    width: 20%;
+    padding: 0 60px;
+    box-sizing: border-box;
+}
+.our-service-intro div img {
+    display: block;
+}
+.our-service-intro div span {
+    display: inline-block;
+    text-align: center;
+    margin-left: 26px;
+    font-weight: 700;
+    margin-top: 18px;
+}
+.news {
+    height: 450px;
+    width: 1200px;
+    margin: 0 auto;
+    font-family: "微软雅黑";
+}
+.news-title {
+    height: 100px;
+    margin-top: 20px;
+    padding-bottom: 16px;
+    text-align: center;
+    font-size: 16px;
+}
+.news-title  h1{
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.news-title div {
+    text-align: center;
+    position: relative;
+}
+.news-title div a {
+    position: absolute;
+    color: #dc1e32;
+    bottom: 0;
+    right: 0;
+}
+.news-box {
+    float: left;
+    display: block;
+    width: 280px;
+    text-align: center;
+    background-color: #F6F6F6;
+}
+.news-box img {
+    display: block;
+    width: 280px;
+    margin-bottom: 20px;
+}
+.news-detail span {
+    font-size: 18px;
+    display: block;
+    padding: 0 16px;
+    padding-bottom: 14px;
+}
+.news-detail  .little-word {
+    font-size: 14px;
+}
+.news-box:hover {
+    background-color: #DC1E31;
+    color: #fff;
+}
+/*底部*/
+.layui-layout-body .layui-footer {
+    height: 300px;
+    margin-top: 30px;
+    font-family: "微软雅黑";
+
+}
+.content-bottom {
+    height: 245px;
+    background-color: #30383D;
+    overflow: hidden;
+    clear: both;
+}
+.wl{
+    width: 1200px;
+    margin: 0 auto;
+    color: #fff;
+    background: url("../images/customer.png") no-repeat 0 40px;
+    overflow: hidden;
+    clear: both;
+}
+.content-bottom  .wl .first,.content-bottom  .wl .big-box,.content-bottom  .wl .big-box2 {
+    float: left;
+}
+.content-bottom  .wl .first {
+    width: 300px;
+    margin: 40px 0 0 0;
+    padding: 0 0 0 60px;
+    overflow: hidden;
+    clear: both;
+}
+.content-bottom  .wl .first span {
+    display: block;
+}
+.content-bottom  .wl .first .customer-phone {
+    font-size: 20px;
+}
+.content-bottom  .wl .first .number {
+    font-size: 34px;
+    margin: 10px 0;
+}
+.content-bottom  .wl .first .service-time {
+    color: #c1c1c1;
+}
+.content-bottom  .wl .big-box {
+    margin-right: 160px;
+}
+.all-kind-service {
+    float: left;
+    padding: 40px 30px 0 20px;
+}
+.all-kind-service span {
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    margin-bottom: 12px;
+}
+.all-kind-service ul {
+    margin-top: 12px;
+}
+.all-kind-service ul li {
+    font-size: 12px;
+    margin-top: 12px;
+}
+.all-kind-service ul li a {
+    color:#9CA2A4;
+}
+.all-kind-service ul li a:hover {
+    color: #fff;
+}
+.we-chat-box {
+    padding: 40px 0;
+    margin-right: 30px;
+    display: inline-block;
+}
+.we-chat-box img{
+    width: 96px;
+    height: 96px;
+}
+.we-chat-box span {
+    display: block;
+    font-size: 12px;
+    margin-top: 5px;
+    text-align: center;
+    line-height: 16px;
+}
+.last-bottom .wl2{
+    height: 55px;
+    background-color: #282828;
+    line-height: 55px;
+    text-align: center;
+    color: #A6A7AB;
+    font-size: 12px;
+}
+
+
+

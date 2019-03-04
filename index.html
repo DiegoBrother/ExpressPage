@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="layui/css/layui.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+</head>
+<div class="layui-layout-body">
+    <!-- 头部区域（可配合layui已有的水平导航） -->
+<div class="layui-layout layui-layout-admin">
+    <div class="layui-header nav-bg-color">
+        <div class="layui-logo"><img src="images/logo.png" alt="" width="80px" height="40px"></div>
+        <!--左侧-->
+        <ul class="layui-nav layui-layout-left">
+            <li class="layui-nav-item"><a href="index.html">首页</a></li>
+            <li class="layui-nav-item">
+                <a href="">快递业务</a>
+                <dl class="layui-nav-child">
+                    <dd><a href="send_express.html">寄件申请</a></dd>
+                    <dd><a href="web_point.html">网点查询</a></dd>
+                </dl>
+            </li>
+            <li class="layui-nav-item">
+                <a href="">客户服务</a>
+                <dl class="layui-nav-child">
+                    <dd><a href="complaint.html">客户投诉</a></dd>
+                </dl>
+
+            </li>
+            <li class="layui-nav-item">
+                <a href="javascript:;">关于快递之家</a>
+            </li>
+        </ul>
+        <!--右侧-->
+        <ul class="layui-nav layui-layout-right">
+            <li class="layui-nav-item">
+              <!--  登录-->
+                <a href="login.html">
+                    登录
+                    <dl class="layui-nav-child">
+                        <dd><a href="edit_user_info.html">用户信息</a></dd>
+                        <dd><a href="modify_password.html">修改密码</a></dd>
+                        <dd><a href="my_order.html">我的订单</a></dd>
+                    </dl>
+                </a>
+            </li>
+            <li class="layui-nav-item"><a href="register.html">注册</a></li>
+        </ul>
+    </div>
+</div>
+<!--内容体区域-->
+<div class="layui-body-1">
+    <div class="lunbo">
+    <!--轮播图-->
+    <div class="layui-carousel" id="carousel_ad">
+        <div carousel-item>
+        <div><img src="images/banner1.jpg" alt=""></div>
+        <div><img src="images/banner2.jpg" alt=""></div>
+        <div><img src="images/banner3.jpg" alt=""></div>
+        <div><img src="images/banner4.jpg" alt=""></div>
+        </div>
+    </div>
+    <!--功能菜单-->
+    <div class="func_menu">
+        <ul class="func_ul">
+            <li><img src="images/ydcx.png" alt=""> <a href="wuliu_info.html">物流查询</a></li>
+            <li><img src="images/zxjj.png" alt=""> <a href="send_express.html">在线寄件</a></li>
+            <li><img src="images/wdcx.png" alt=""> <a href="web_point.html">网点查询</a></li>
+            <li><img src="images/yfcx.png" alt=""> <a href="transport_fee.html">运费查询</a></li>
+            <li><img src="images/kfzx.png" alt=""> <a href="customer_service.html">客服中心</a></li>
+        </ul>
+    </div>
+    </div>
+    <!--我们的服务-->
+    <div class="our-service">
+      <h3>我们的服务</h3>
+        <div class="our-service-intro">
+            <div ><img src="images/hdfk.jpg" alt=""><span>货到付款</span></div>
+            <div><img src="images/bjfw.jpg" alt=""><span>保价服务</span></div>
+            <div><img src="images/dzmd.jpg" alt=""><span>电子面单</span></div>
+            <div><img src="images/yfdf.jpg" alt=""><span>运费到付</span></div>
+            <div><img src="images/smqj.jpg" alt=""><span>上门取件</span></div>
+        </div>
+    </div>
+    <!--新闻资讯-->
+    <div class="news">
+        <div class="news-title">
+            <div class="words">
+                <h1>新闻资讯</h1>
+                <div><span>新闻资讯抢先知晓</span><a href="#">查看全部></a></div>
+            </div>
+        </div>
+        <div class="show-news">
+            <a class="news-box" href="#">
+                <img src="images/news1.jpg" alt="">
+                <span class="news-detail" >
+                    <span> 大数据“世界杯”即将上演——2018年赢在东莞全球 ...</span>
+                    <span class="little-word"> 7月12日，由东莞市人民政府主办的“2018年赢在东莞全球大 ... <b>[详情]</b></span>
+                </span>
+            </a>
+            <a class="news-box" href="#" style="margin-left: 23px;">
+                <img src="images/news2.png" alt="">
+                <span class="news-detail" >
+                    <span> 大数据“世界杯”即将上演——2018年赢在东莞全球 ...</span>
+                    <span class="little-word"> 7月12日，由东莞市人民政府主办的“2018年赢在东莞全球大 ... <b>[详情]</b></span>
+                </span>
+            </a>
+            <a class="news-box" href="#"  style="margin-left: 23px;">
+                <img src="images/news3.jpg" alt="">
+                <span class="news-detail" >
+                    <span> 大数据“世界杯”即将上演——2018年赢在东莞全球 ...</span>
+                    <span class="little-word"> 7月12日，由东莞市人民政府主办的“2018年赢在东莞全球大 ... <b>[详情]</b></span>
+                </span>
+            </a>
+            <a class="news-box" href="#"  style="margin-left: 23px;">
+                <img src="images/news4.jpg" alt="">
+                <span class="news-detail" >
+                    <span> 大数据“世界杯”即将上演——2018年赢在东莞全球 ...</span>
+                    <span class="little-word"> 7月12日，由东莞市人民政府主办的“2018年赢在东莞全球大 ... <b>[详情]</b></span>
+                </span>
+            </a>
+        </div>
+    </div>
+</div>
+<!--底部固定区域-->
+<div class="layui-footer">
+    <div class="content-bottom">
+        <div class="wl">
+            <div class="first">
+                <span class="customer-phone">客服电话</span>
+                <span class="number">4001-666-888</span>
+                <span class="service-time">服务时间： 8：30 - 17：30</span>
+            </div>
+            <div class="big-box" >
+                <div class="all-kind-service">
+                    <span>客户服务</span>
+                    <ul>
+                        <li><a href="#">在线寄件</a></li>
+                        <li><a href="#">运单查询</a></li>
+                        <li><a href="#">网点查询</a></li>
+                        <li><a href="#">运费查询</a></li>
+                    </ul>
+                </div>
+                <div class="all-kind-service">
+                    <span>客服服务</span>
+                    <ul>
+                        <li><a href="#">客服热线</a></li>
+                        <li><a href="#">在线留言</a></li>
+                    </ul>
+                </div>
+                <div class="all-kind-service">
+                    <span>加盟快递之家</span>
+                    <ul>
+                        <li><a href="#">加盟须知</a></li>
+                        <li><a href="#">加盟流程</a></li>
+                        <li><a href="#">加盟热线</a></li>
+                        <li><a href="#">招商区域</a></li>
+                    </ul>
+                </div>
+                <div class="all-kind-service">
+                    <span>人才招聘</span>
+                    <ul>
+                        <li><a href="#">人才计划</a></li>
+                        <li><a href="#">招聘信息</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="big-box2" >
+                <div class="we-chat-box">
+                    <img src="images/code.png" alt="">
+                    <span>快递之家微信</span>
+                    <span>服务扫码关注</span>
+                </div>
+                 <div class="we-chat-box">
+                     <img src="images/code.png" alt="">
+                     <span>快递通达微信</span>
+                     <span>订阅号扫码关注</span>
+                 </div>
+            </div>
+      </div>
+    </div>
+    <div class="last-bottom">
+        <div class="wl2">
+            <p>©版权所有 2019 快递之家有限公司</p>
+        </div>
+    </div>
+</div>
+
+ </div>
+<script src="layui/layui.js"></script>
+<script>
+    layui.use(['element','carousel'],function () {
+        var element = layui.element,
+            carousel = layui.carousel;
+
+        //建造实例
+        carousel.render({
+            elem:'#carousel_ad',
+            width:'100%',
+            height:'440px',
+            arrow:'always'
+        })
+    });
+</script>
+</body>
+</html>
+
+
+
+
+
+

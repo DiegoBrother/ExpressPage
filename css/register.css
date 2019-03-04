@@ -1,0 +1,102 @@
+.register-content {
+    width: 100%;
+    height: 750px;
+    background-color: #eef1f4;
+    position: relative;
+    font-family: "微软雅黑";
+}
+.register-box {
+    width: 662px;
+    height: 580px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -290px;
+    margin-left: -290px;
+    border-radius: 10px;
+    box-shadow: 0 15px 40px rgba(51,162,247,.2);
+}
+.register-title {
+    height: 60px;
+    background: url("../images/register_tit.png") center center no-repeat;
+    margin: 35px auto 20px;
+    text-align: center;
+    color: #33a2f7;
+    line-height: 60px;
+    font-size: 20px;
+}
+.go-login {
+    width: 92px;
+    height: 49px;
+    display: block;
+    position: absolute;
+    top: 42px;
+    right: -13px;
+    line-height: 54px;
+    text-indent: 33px;
+    color: #fff;
+    letter-spacing: 1px;
+    background: url("../images/go-login.png") center center no-repeat;
+}
+.go-login:hover {
+    color: #fff;
+}
+.phone-input,.register-password,.pwd-again {
+    width: 500px;
+    height: 52px;
+    line-height: 52px;
+    margin: 0 auto;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    text-align: center;
+    padding-left: 50px;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+    clear: both;
+}
+.phone-input input ,.register-password input,.pwd-again  input{
+    height: 40px;
+    width: 447px;
+    border: 0;
+}
+.phone-input span ,.test-code span,.register-password span,.pwd-again  span {
+    position: absolute;
+    width: 37px;
+    height: 22px;
+    border-right: 1px solid #dadada;
+    top: 16px;
+    left: 0;
+}
+.phone-input img,.test-code img ,.register-password img,.pwd-again img{
+    width: 18px;
+    height: 18px;
+    display: block;
+    margin: 0 auto;
+}
+.register-btn {
+    width: 500px;
+    height: 52px;
+    line-height: 52px;
+    margin: 30px auto 0;
+    text-align: center;
+}
+.register-btn input{
+    width: 200px;
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+    background-color: #33a2f7;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 24px;
+    cursor: pointer;
+    box-shadow: 0 5px 10px rgba(51,162,247,.4);
+    border: 0;
+}
+#remind_1,#remind_2,#remind_3,#remind_4 {
+    margin-left: 100px;
+    height: 30px;
+    line-height: 30px;
+}

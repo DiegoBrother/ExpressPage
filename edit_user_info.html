@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>用户信息</title>
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/user_info.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="layui/css/layui.css">
+</head>
+<body>
+<div class="layui-layout-body">
+    <!-- 头部区域（可配合layui已有的水平导航） -->
+    <div class="layui-layout layui-layout-admin">
+        <div class="layui-header nav-bg-color">
+            <div class="layui-logo"><img src="images/logo.png" alt="" width="80px" height="40px"></div>
+            <!--左侧-->
+            <ul class="layui-nav layui-layout-left">
+                <li class="layui-nav-item"><a href="index.html">首页</a></li>
+                <li class="layui-nav-item">
+                    <a href="">快递业务</a>
+                    <dl class="layui-nav-child">
+                        <dd><a href="send_express.html">寄件申请</a></dd>
+                        <dd><a href="web_point.html">网点查询</a></dd>
+                    </dl>
+                </li>
+                <li class="layui-nav-item">
+                    <a href="">客户服务</a>
+                    <dl class="layui-nav-child">
+                        <dd><a href="complaint.html">客户投诉</a></dd>
+                    </dl>
+
+                </li>
+                <li class="layui-nav-item">
+                    <a href="javascript:;">关于快递之家</a>
+                </li>
+            </ul>
+            <!--右侧-->
+            <ul class="layui-nav layui-layout-right">
+                <li class="layui-nav-item">
+                    <a href="login.html">
+                        登录
+                        <dl class="layui-nav-child">
+                            <dd><a href="edit_user_info.html">用户信息</a></dd>
+                            <dd><a href="modify_password.html">修改密码</a></dd>
+                            <dd><a href="my_order.html">我的订单</a></dd>
+                        </dl>
+                    </a>
+                </li>
+                <li class="layui-nav-item"><a href="register.html">注册</a></li>
+            </ul>
+        </div>
+    </div>
+    <!--content-->
+    <div class="user_info">
+        <div class="user_info_ad">
+         <h1>个人信息</h1>
+         <p>快递之家提供快捷、安全、贴心、可靠的快递服务，是您的优质选择</p>
+        </div>
+        <div class="user_info_wl">
+         <form action="">
+          <div class="user_info_header">
+                  <input id="file" onchange="changepic(this)" type="file"><br>
+                  <img src="images/headerpic.png" id="show" width="200" class="header_pic">
+                   <p style="margin-left: 28px;color: #666;margin-top: 8px;font-size: 12px">头像预览图</p>
+          </div>
+           <div class="user_info_row">
+               <p class="tip"></p>
+                <label>昵称  </label>
+                <input type="text" placeholder="请输入您的快递系统之家用户名" id="nickname" name="nickname">
+            </div>
+                <div class="user_info_row">
+                    <p class="tip"></p>
+                    <label>性别  </label>
+                    <input type="radio" name="human" class="man" value="男" >&nbsp;男
+                    <input type="radio" name="human" class="woman" value="女">&nbsp;女
+                </div>
+                <div class="user_info_row">
+                    <p class="tip"></p>
+                    <label>手机  </label>
+                    <input type="phone" placeholder="请输入您手机号" id="phone" name="phone">
+                </div>
+                <div class="user_info_row">
+                    <p class="tip"></p>
+                    <label>邮箱  </label>
+                    <input type="phone" placeholder="请输入您邮箱" id="email" name="email">
+                </div>
+                <div class="user_info_row">
+                    <p class="tip"></p>
+                    <label>生日  </label>
+                    <input type="birthday" placeholder="请输入您生日" id="birthday" name="birthday">
+                </div>
+                <div class="user_info_row">
+                    <p class="tip"></p>
+                    <label>地址  </label>
+                    <input type="address" placeholder="请输入您现住地址" id="address" name="address">
+                </div>
+
+               <div class="edit_info"><button type="submit">编辑信息</button></div>
+            </form>
+        </div>
+    </div>
+    <!--footer-->
+    <div class="layui-footer">
+        <div class="content-bottom">
+            <div class="wl">
+                <div class="first">
+                    <span class="customer-phone">客服电话</span>
+                    <span class="number">4001-666-888</span>
+                    <span class="service-time">服务时间： 8：30 - 17：30</span>
+                </div>
+                <div class="big-box" >
+                    <div class="all-kind-service">
+                        <span>客户服务</span>
+                        <ul>
+                            <li><a href="#">在线寄件</a></li>
+                            <li><a href="#">运单查询</a></li>
+                            <li><a href="#">网点查询</a></li>
+                            <li><a href="#">运费查询</a></li>
+                        </ul>
+                    </div>
+                    <div class="all-kind-service">
+                        <span>客服服务</span>
+                        <ul>
+                            <li><a href="#">客服热线</a></li>
+                            <li><a href="#">在线留言</a></li>
+                        </ul>
+                    </div>
+                    <div class="all-kind-service">
+                        <span>加盟快递之家</span>
+                        <ul>
+                            <li><a href="#">加盟须知</a></li>
+                            <li><a href="#">加盟流程</a></li>
+                            <li><a href="#">加盟热线</a></li>
+                            <li><a href="#">招商区域</a></li>
+                        </ul>
+                    </div>
+                    <div class="all-kind-service">
+                        <span>人才招聘</span>
+                        <ul>
+                            <li><a href="#">人才计划</a></li>
+                            <li><a href="#">招聘信息</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="big-box2" >
+                    <div class="we-chat-box">
+                        <img src="images/code.png" alt="">
+                        <span>快递之家微信</span>
+                        <span>服务扫码关注</span>
+                    </div>
+                    <div class="we-chat-box">
+                        <img src="images/code.png" alt="">
+                        <span>快递通达微信</span>
+                        <span>订阅号扫码关注</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="last-bottom">
+            <div class="wl2">
+                <p>版权所有 2019 快递之家有限公司</p>
+        </div>
+    </div>
+
+</div>
+<script src="layui/layui.js"></script>
+<script>
+    layui.use(['element','carousel','upload'],function () {
+        var element = layui.element,
+            carousel = layui.carousel,
+            upload = layui.upload;
+
+        //建造实例
+        carousel.render({
+            elem:'#carousel_ad',
+            width:'100%',
+            height:'440px',
+            arrow:'always'
+        })
+        //执行实例
+
+    });
+</script>
+<script>
+   //filereader 的方法
+       function changepic() {
+           var reads= new FileReader();
+           f=document.getElementById('file').files[0];
+           reads.readAsDataURL(f);
+           reads.onload=function (e) {
+               document.getElementById('show').src=this.result;
+           };
+       }
+
+</script>
+
+</body>
+</html>

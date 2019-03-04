@@ -1,0 +1,88 @@
+.user_info {
+    height: 1000px;
+}
+.user_info_ad {
+    height: 240px;
+    background: url("../images/customerCenter.jpg");
+    margin-bottom: 30px;
+}
+.user_info_ad h1 {
+    font-weight: bold;
+    font-size: 40px;
+    margin-left: 220px;
+    padding-top: 53px;
+    letter-spacing: 8px;
+
+}
+.user_info_ad p {
+    margin-left: 220px;
+    padding-top: 16px;
+    color: #666666;
+}
+.user_info_wl {
+    height: 850px;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 20px 200px;
+    box-sizing: border-box;
+    background-color: #f0f0f0;
+}
+.user_info_header {
+    position: relative;
+    height: 178px;
+}
+#file {
+    position: absolute;
+    width: 120px ;
+    height: 120px;
+    left: 0px;
+    opacity: 0;
+    top: 16px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.header_pic {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+.user_info_row {
+    height: 60px;
+    line-height: 60px;
+    letter-spacing: 10px;
+    margin-top: 10px;
+}
+.user_info_row label {
+    font-size: 16px;
+    color: #000;
+    font-weight: 700;
+    margin-right: 20px;
+}
+.user_info_row #nickname ,.user_info_row #phone,.user_info_row #email,.user_info_row #birthday,.user_info_row #address {
+    height: 40px;
+    width: 400px;
+    border: 1px solid #f0f0f0;
+    padding-left: 14px;
+}
+.user_info_row .man ,.user_info_row .woman{
+    height: 14px;
+    width: 14px;
+    vertical-align: middle;
+}
+.user_info_row .woman {
+    margin-left: 30px;
+}
+
+.edit_info {
+    margin-top: 30px;
+}
+.edit_info button{
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    border-radius: 4px;
+    border:1px solid #cccccc;
+    background-color: deepskyblue;
+    color: #ffffff;
+    margin-left: 138px;
+}

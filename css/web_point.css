@@ -1,0 +1,119 @@
+.web_pointz {
+    height: 100%;
+    background-color: #fff;
+}
+.web_point_wl {
+    width: 1200px;
+    height:100%;
+    margin: 0 auto;
+    padding-left: 14px;
+    box-sizing: border-box;
+
+}
+.header_ad {
+    height: 240px;
+    background: url("../images/customerCenter.jpg");
+    margin-bottom: 30px;
+    box-shadow: 0 5px 10px rgba(119,136,153,.4);
+}
+.header_ad h1 {
+    font-weight: bold;
+    font-size: 40px;
+    margin-left: 220px;
+    padding-top: 53px;
+    letter-spacing: 8px;
+
+}
+.header_ad p {
+    margin-left: 220px;
+    padding-top: 16px;
+    color: #666666;
+}
+.web_point_search {
+    height: 100%;
+}
+.web_point_search h3 {
+    font-size: 18px;
+    padding: 10px 0 10px 14px;
+    margin-bottom: 26px;
+    box-sizing: border-box;
+    border:1px solid #e0e0e0;
+    border-top: 3px solid #0293ED;
+}
+label {
+   font-size: 14px;
+    color: #666666;
+    margin-left: 14px;
+    margin-right: 10px;
+}
+.ssq,.qsr {
+    height: 40px;
+    width: 200px;
+    padding-left: 10px;
+    border: 1px solid #e0e0e0;
+    border-radius: 2px;
+}
+.web_point_search>div {
+    text-align: left;
+}
+#ssq {
+    margin-right: 88px;
+}
+.submit {
+    height: 44px;
+    width: 100px;
+    margin-left: 20px;
+    border: 0;
+    background-color: #0293ED;
+    border-radius: 4px;
+    color: #ffffff;
+    font-size: 14px;
+}
+.queryResultBox {
+    margin-top: 32px;
+    padding-top: 30px;
+    box-sizing: border-box;
+    border-top: 1px solid #e0e0e0;
+}
+.title ,.content,.content1,.content2{
+    display: block;
+}
+.address-short {
+    font-size: 14px;
+    font-family: MicrosoftYaHei-Bold;
+    color: #333333;
+    line-height: 19px;
+    font-weight: bold;
+}
+.wp_num {
+    font-size: 12px;
+    font-family: MicrosoftYaHei;
+    color: #999999;
+    font-weight: normal;
+    margin-left: 10px;
+}
+.box1{
+    width: 100%;
+    height: 180px;
+    padding: 16px;
+    box-sizing: border-box;
+    border: 1px solid #e0e0e0;
+    margin-bottom: 20px;
+    display: inline-block;
+    background-color: #f7f7f7;
+    margin-right: 20px;
+}
+.box1:hover {
+    background-color: #ffffff;
+    box-shadow: 1px 1px 2px 2px #cccccc ;
+}
+.box2 {
+    float: right;
+}
+.box1 label {
+    margin-right: 0;
+    margin-left: 0;
+}
+.content,.content1,.content2{
+    margin-top: 13px;
+}
